@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .box,
+  .box2,
+  .box3,
+  .box4,
+  .box5{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    opacity: 0.88;
+  }
+  .box {
+    height: 120vh;
+    background-image: url(./img2/wallpaperbetter\ \(4\).jpg);
+  }
+  
+  .box2 {
+    /* position: relative; */
+    height: 90vh;
+    background-image: url(./img2/wallpaperbetter\ \(6\).jpg);
+  }
+  
+  .box3 {
+    height: 100vh;
+    background-image: url(./img2/wallpaperbetter\ \(7\).jpg);
+  }
+  
+  .box4 {
+    height: 80vh;
+    background-image: url(./img2/wallpaperbetter\ \(8\).jpg);
+  }
+  .box5{
+    position: relative;
+    height: 100vh;
+    background-image: url(./img2/wallpaperbetter\ \(5\).jpg);
+    
+  }
+  span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(44, 37, 37);
+    color: rgb(122, 100, 100);
+    font-size: 58px;
+    letter-spacing: 8px;
+  }
+
+    
+    
+    
+      
+ 
+  .big-span {
+
+    opacity: 0.5;
+    background-attachment: fixed;
+    box-shadow: 3px 4px rgb(241, 241, 232);
+    padding: 32px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    color: rgb(216, 211, 211);
+    outline: 8px inset rgb(199, 187, 199);
+    outline-offset: 20px;
+   
+  }
+
+
+.big-span:hover{
+
+    background-color: rgb(44, 12, 12);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    /* transform: translateX(100%); */
+    transform: translateX(-60%) translateY(-260%);
+    transition: linear 2s;
+}
+.small-span:hover{
+    
+    background-color: rgb(44, 12, 12);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    transition: linear 2s;
+    transform: translateX(-150%) translateY(-560%) rotate(360deg);
+}
+
+  .small-span {
+    opacity: 0.5;
+    padding: 5px 30px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 10px;
+    outline: 6px inset rgb(219, 196, 219);
+    color: rgb(179, 169, 169);
+    outline-offset: 6px;
+  }
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 75px;
+    font-size: 40px;
+    color: rgb(65, 18, 18);
+  }
+  
+  p {
+    padding: 30px 80px 50px;
+    line-height: 2;
+  }
+
+  .white {
+    font-size: 15px;
+    background-color: rgb(95, 92, 92);
+    color: rgb(201, 185, 185);
+  }
+  .black {
+    background-color: #282e34;
+    color: rgb(196, 180, 180);
+  }
+  
+  
+  .box5 img{
+    opacity: 0.6;
+    width: 200px;
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    animation: hop-up 4s linear infinite;
+    transform: rotateZ(180deg);
+  }
+
+
+ .black .tek{
+   
+   opacity: 0.6;
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    
+   transform: rotateZ(180deg);
+   animation: top-move 4s linear infinite;
+}
+
+@keyframes top-move{
+    100%{
+        transform:translateY(500px) ;
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateY(500px);
+    }
+}
+
+
+  @keyframes hop-up{
+    100%{
+        transform: translateY(-2000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateY(-500px);
+    }
+  }
+  
+  span {
+    font-size: 35px;
+    letter-spacing: 6px;
+  }
+  
+  span {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+  p {
+    padding: 25px 50px 40px;
+    line-height: 1.6;
+  }
+  .clarusway-background,
+  .clarusway-background2,
+  .clarusway-background3,
+  .clarusway-background4 {
+    height: 80vh;
+  }
+
+ 
+  @media only screen and (max-width: 650px) {
+    span {
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    p {
+      padding: 15px 30px 20px;
+      line-height: 1.4;
+    }
+    h1 {
+      padding-top: 30px;
+    }
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5{
+      height: 50vh;
+    }
+  }
+  
