@@ -26,28 +26,28 @@
   }
   .box {
     height: 120vh;
-    background-image: url(/wallpaperbetter\ \(4\).jpg);
+    background-image: url(./img/wallpaperbetter\ \(4\).jpg);
   }
   
   .box2 {
     /* position: relative; */
     height: 90vh;
-    background-image: url(/wallpaperbetter\ \(6\).jpg);
+    background-image: url(./img/wallpaperbetter\ \(6\).jpg);
   }
   
   .box3 {
     height: 100vh;
-    background-image: url(/wallpaperbetter\ \(7\).jpg);
+    background-image: url(./img/wallpaperbetter\ \(7\).jpg);
   }
   
   .box4 {
     height: 80vh;
-    background-image: url(/wallpaperbetter\ \(8\).jpg);
+    background-image: url(./img/wallpaperbetter\ \(8\).jpg);
   }
   .box5{
     position: relative;
     height: 100vh;
-    background-image: url(/wallpaperbetter\ \(5\).jpg);
+    background-image: url(./img/wallpaperbetter\ \(5\).jpg);
     
   }
   span {
